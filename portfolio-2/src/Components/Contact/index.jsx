@@ -43,7 +43,7 @@ const LinkWrapper = styled.a`
   transition: background-color 0.3s, color 0.3s;
 
   &:hover {
-    background-color: #0073b1; /* LinkedIn color */
+    background-color: #0073b1;
     color: #fff;
   }
 `;

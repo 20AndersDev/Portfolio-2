@@ -7,26 +7,26 @@ const VideoBackground = styled.video`
   top: 0;
   left: 50%;
   width: 100%;
-  height: 70vh; /* Half of the viewport height */
+  height: 70vh;
   object-fit: cover;
   transform: translateX(-50%);
-  z-index: -1; /* Ensure the video is behind other content */
+  z-index: -1;
 `;
 
 const Wrapper = styled.div`
   position: relative;
   width: 100%;
-  height: 50vh; /* Full viewport height */
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white; /* Text color */
+  color: white;
   text-align: center;
 `;
 
 const Content = styled.div`
-  z-index: 1; /* Ensure the text is above the video */
+  z-index: 1;
 `;
 
 const Title = styled.h1`
